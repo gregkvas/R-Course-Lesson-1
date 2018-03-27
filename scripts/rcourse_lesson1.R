@@ -23,3 +23,18 @@ tail(data_bl)
 xtabs(~group, data_bl)
 xtabs(~type, data_bl) 
 
+## MAKE FIGURES ####
+# By group
+data.plot = ggplot(data, aes(x = group, y = rt)) +
+  geom_boxplot()
+data.plot
+pdf("figures/data.pdf")
+data.plot
+dev.off()
+
+
+
+
+
+
+
