@@ -1,0 +1,5 @@
+Project that pushes/pull to/from GIT-Hosting-Website "Github"
+
+Note: The R Project File "R-Course-Lesson-1.Rproj" is generated when cloning the Repository from
+the GitHub-Hosting-Site via "git@github.com:gregkvas/R-Course-Lesson-1.git", eventhough there
+is already the original existing R Project File "rcourse_lesson1.Rproj" in the Repository...!???
